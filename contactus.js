@@ -86,6 +86,6 @@ form.addEventListener("submit", (e)=>{
     else{
       console.log('submitted')
       err.style.display = "none";
-      window.location.href = "home.html"
+      window.location.href = "index.html"
     }
 })
