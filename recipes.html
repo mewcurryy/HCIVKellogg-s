@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="assets/Logo.png" alt="logo" class="Logo">
+            <ul id="list-menu">
+                <li><a href="home.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="products.html"><i class="fa-solid fa-boxes-packing"></i>Products</a></li>
+                <li><a href="recipes.html"><i class="fa-solid fa-book"></i><span class="highlight">Recipes</span></a></li>
+                <li><a href="aboutus.html"><i class="fa-solid fa-users"></i>About Us</a></li>
+                <li><a href="contactus.html"><i class="fa-solid fa-address-book"></i>Contact Us</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="recipes">
+        <div class="slider">
+            <div class="list">
+                <div class="item active">
+                    <img src="assets/Croque Madam.webp">
+                    <div class="content">
+                        <p>VKellogg's Best Recipes</p>
+                        <h2>Croque Madam</h2>
+                        <p>
+                            The French croque madame sandwich is a lesson in extravagance, made with white bread, butter, cheese, ham, Mornay sauce, and a fried egg. It's a luxurious, deeply comforting dish. <br><br>
+                            <i class="fa-solid fa-bowl-food" id="yellow"></i> <b>Preparation Time:</b> 30 minutes <br>
+                            <i class="fa-solid fa-clock" id="yellow"></i> <b>Serving Sizes:</b> 2 servings
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/Egg Bhurji.webp">
+                    <div class="content">
+                        <p>VKellogg's Best Recipes</p>
+                        <h2>Egg Bhurji</h2>
+                        <p>
+                            Take just a few extra minutes, and plain scrambled eggs are transformed into this vibrant eggs bhurji (also spelled "bhurjee") breakfast, flavored with onions, chiles, ginger, tomatoes, and spices. <br><br>
+                            <i class="fa-solid fa-bowl-food" id="yellow"></i> <b>Preparation Time:</b> 20 minutes <br>
+                            <i class="fa-solid fa-clock" id="yellow"></i> <b>Serving Sizes:</b> 2 servings
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/Banana Almond Butter Smoothie.webp">
+                    <div class="content">
+                        <p>VKellogg's Best Recipes</p>
+                        <h2>Banana Almond Butter Smoothie</h2>
+                        <p>
+                            Medjool dates are the sweetening secret to these nutty, thick smoothies. <br><br>
+                            <i class="fa-solid fa-bowl-food" id="yellow"></i> <b>Preparation Time:</b> 5 minutes <br>
+                            <i class="fa-solid fa-clock" id="yellow"></i> <b>Serving Sizes:</b> 1 serving
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/Monte Cristo Sandwich.webp">
+                    <div class="content">
+                        <p>VKellogg's Best Recipes</p>
+                        <h2>Monte Cristo Sandwich</h2>
+                        <p>
+                            A hybrid of a ham and cheese sandwich and French toast, this breakfast and brunch sandwich is both sweet and savory, with raspberry jam and spicy mustard.<br><br>
+                            <i class="fa-solid fa-bowl-food" id="yellow"></i> <b>Preparation Time:</b> 10 minutes <br>
+                            <i class="fa-solid fa-clock" id="yellow"></i> <b>Serving Sizes:</b> 2 servings
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/Sweet Breakfast Quinoa.webp">
+                    <div class="content">
+                        <p>VKellogg's Best Recipes</p>
+                        <h2>Sweet Breakfast Quinoa</h2>
+                        <p>
+                            "This breakfast will make your day so productive," says Jill Donenfeld about her maple syrup-sweetened quinoa. Quinoa is naturally loaded with protein and fiber. <br><br>
+                            <i class="fa-solid fa-bowl-food" id="yellow"></i> <b>Preparation Time:</b> 25 minutes <br>
+                            <i class="fa-solid fa-clock" id="yellow"></i> <b>Serving Sizes:</b> 4 servings
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="assets/French Rolled Omelette.webp">
+                    <div class="content">
+                        <p>VKellogg's Best Recipes</p>
+                        <h2>French Rolled Omelette</h2>
+                        <p>
+                            Preparing a proper omelet is an essential cooking technique for culinary school students, cooks, and chefs. Here's how many skills the simple dish elicits. <br><br>
+                            <i class="fa-solid fa-bowl-food" id="yellow"></i> <b>Preparation Time:</b> 10 minutes <br>
+                            <i class="fa-solid fa-clock" id="yellow"></i> <b>Serving Sizes:</b> 1 serving
+                        </p>
+                    </div>
+                </div>
+            </div>
+         
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+    
+            <div class="thumbnail">
+                <div class="item active">
+                    <img src="assets/Croque Madam.webp">
+                    <div class="content">
+                        Croque Madam
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/Egg Bhurji.webp">
+                    <div class="content">
+                        Egg Bhurji
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/Banana Almond Butter Smoothie.webp">
+                    <div class="content">
+                        Banana Almond Butter Smoothie
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/Monte Cristo Sandwich.webp">
+                    <div class="content">
+                        Monte Cristo Sandwich
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/Sweet Breakfast Quinoa.webp">
+                    <div class="content">
+                        Sweet Breakfast Quinoa
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="assets/French Rolled Omelette.webp">
+                    <div class="content">
+                        French Rolled Omelette
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Explore Our Websites</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Always Connected With Us.</h4>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-line"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <p class="copyright">© 1906 - 2024 VKellogg's. All Rights Reserved.</p>
+
+                </div>
+             
+                <div class="footer-col">
+                    <img src="assets/Logo.png" alt="logo" class="logo-footer">
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
